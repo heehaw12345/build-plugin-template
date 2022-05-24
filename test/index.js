@@ -20,11 +20,7 @@ test('Netlify Build should not fail', async (t) => {
     buffer: true,
   })
 
-  // Netlify Build output
-  console.log(
-    [logs.stdout.join('\n'), logs.stderr.join('\n')]
-      .filter(Boolean)
-      .join('\n\n'),
+ 
   )
 
   // Check that build succeeded
